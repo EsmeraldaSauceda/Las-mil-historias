@@ -2,16 +2,16 @@ import React from 'react'
 
 const Formatos = () => {
   return (
-    <section>
-          <article className='article'>
-            <div className='caja'>
-            <p className='titulo'><b>Estas son las siguientes opciones de pago que tiene:</b></p>
+    <div>
+            <div className='pagos'>
+              <h2>PAGOS</h2>
             </div>
+            <div className='caja'>
+            <p className='titulo'><b>Pagos pendiente por pagar:</b></p>
+            </div>
+    </div>
 
-            <div className="clearfix"></div>
 
-          </article>
-         </section>
   )
 }
 

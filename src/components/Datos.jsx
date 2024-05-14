@@ -3,21 +3,17 @@ import './estilo.css'
 
 const Datos = () => {
   return (
-    <section>
-          <article className='article'>
+    <div>
+            <div className='perfil'>
+            <h2>PERFIL</h2>
+          </div>
             <div className='caja'>
-            <div className='dato'></div>
-            <p>Nombre</p>
-            <div>
-            <p>Descripción</p>
+              <div className='dato'><img className='user' src="data:image/png;base64,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" alt='Imagen de usuario'  /></div>
+              <p>Nombre</p>
+              <p>Descripción</p>
             </div>
+    </div>
 
-            </div>
-
-            <div className="clearfix"></div>
-
-          </article>
-    </section>
   )
 }
 
